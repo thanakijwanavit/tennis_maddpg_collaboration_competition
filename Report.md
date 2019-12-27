@@ -5,7 +5,8 @@
 1. clone and set up environment by running ```git clone https://github.com/thanakijwanavit/deep_rl_env.git```
 2. install docker according to the instruction [here](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 3. initialize environment by running ```bash ./deep_rl_env/start_script.sh``` --> this will create a docker container which can be accessed through ```bash ./deep_rl_env/monitor_script.sh```
-4. within the docker container, run ```git clone ```
+4. within the docker container, run ```git clone git@github.com:thanakijwanavit/tennis_maddpg_collaboration_competition.git```
+5. run ```python train.py``` to train the model and save the artifacts
 
 
 ## Goal

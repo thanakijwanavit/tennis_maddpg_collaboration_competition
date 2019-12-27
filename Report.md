@@ -6,7 +6,9 @@
 2. install docker according to the instruction [here](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 3. initialize environment by running ```bash ./deep_rl_env/start_script.sh``` --> this will create a docker container which can be accessed through ```bash ./deep_rl_env/monitor_script.sh```
 4. within the docker container, run ```git clone git@github.com:thanakijwanavit/tennis_maddpg_collaboration_competition.git```
-5. run ```python train.py``` to train the model and save the artifacts
+5. download the necessary environment from this [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+6. extract zip file ```unzip Tennis_Linux.zip```
+7. run ```python train.py``` to train the model and save the artifacts
 
 
 ## Goal
